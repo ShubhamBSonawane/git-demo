@@ -1,0 +1,1 @@
+The cert.crt and privatekey.key here don't contan any real information, it is merely to show a proposed structure.

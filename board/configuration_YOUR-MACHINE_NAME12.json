@@ -1,0 +1,86 @@
+{
+  "Cloud": {
+    "environment": "postman\\sms-carlsberg (SMS Staging AKT (standard) QA qa).postman_environment.json",
+    "api_json_files": [
+      "postman\\ACS SMS Carlsberg (Data).postman_collection.json",
+      "postman\\ACS SMS Carlsberg (SDC).postman_collection.json",
+      "postman\\ACS SMS Carlsberg.postman_collection.json"
+    ],
+    "ota_timeout_seconds": 1200
+  },
+  "Wifi": {
+    "ssid": "",
+    "password": "",
+    "auth": "WPA/WPA2",
+    "priority": 0
+  },
+  "Uniflash": {
+    "dslite": "C:\\ti\\uniflash_5.3.0\\dslite.bat",
+    "command_timeout": 15,
+    "program_timeout": 120,
+    "Configuration": "ProductionDigiCert",
+    "MCUImage": "uniflash\\images\\RC2-version-ADSMS-00-v1.0.0.bin",
+    "MCUImageSignature": "uniflash\\images\\RC2-version-ADSMS-00-v1.0.0_signature",
+    "xds110reset": "C:\\ti\\uniflash_5.3.0\\simplelink\\imagecreator\\bin\\xds110reset.exe"
+  },
+  "Devices": {
+    "apNetwork": {
+      "ip": "10.123.45.1",
+      "mask": "255.255.255.0",
+      "gateway": "10.123.45.1",
+      "dns": "10.123.45.1",
+      "startIp": "10.123.45.2",
+      "lastIp": "10.123.45.254"
+    },
+    "timeout": 60,
+    "00000412Z": {
+      "ClientCertificate": "uniflash\\devices\\00000412Z\\clientcert.crt",
+      "PrivateKey": "uniflash\\devices\\00000412Z\\privatekey.key",
+      "CfgFile": "uniflash\\devices\\00000412Z\\adi_sms.cfg"
+    },
+    "00000470J": {
+      "Configuration": "ProductionTI",
+      "MCUImage": "C:\\Users\\pnoonan\\OneDrive - Analog Devices, Inc\\git\\sms\\aws_freertos_mqtt\\projects\\ti\\cc3220_launchpad\\iar\\aws_demos\\SMS_0_1\\Exe\\aws_demos.bin",
+      "ClientCertificate": "uniflash\\devices\\00000470J\\clientcert.crt",
+      "PrivateKey": "uniflash\\devices\\00000470J\\privatekey.key",
+      "CfgFile": "uniflash\\devices\\00000470J\\adi_sms.cfg"
+    },
+    "00000854Z": {
+      "port" : "COM16",
+      "Configuration": "ProductionTI",
+      "ClientCertificate": "uniflash\\devices\\00000854Z\\cert.crt",
+      "PrivateKey": "uniflash\\devices\\00000854Z\\privkey.key",
+      "CfgFile": "uniflash\\devices\\00000854Z\\adi_sms.cfg",
+      "MCUImage": "C:\\Users\\pnoonan\\OneDrive - Analog Devices, Inc\\git\\sms\\aws_freertos_mqtt\\projects\\ti\\cc3220_launchpad\\iar\\aws_demos\\SMS_1_0\\Exe\\aws_demos.bin"
+    },
+    "00000855A": {
+      "Configuration": "Development",
+      "ClientCertificate": "uniflash\\devices\\00000855A\\cert.crt",
+      "PrivateKey": "uniflash\\devices\\00000855A\\privkey.key",
+      "CfgFile": "uniflash\\devices\\00000855A\\adi_sms.cfg",
+      "MCUImage": "C:\\Users\\pnoonan\\OneDrive - Analog Devices, Inc\\git\\sms\\aws_freertos_mqtt\\projects\\ti\\cc3220_launchpad\\iar\\aws_demos\\SMS_1_0\\Exe\\aws_demos.bin"
+    },
+    "00000856R": {
+      "Configuration": "Development",
+      "ClientCertificate": "uniflash\\devices\\00000856R\\cert.crt",
+      "PrivateKey": "uniflash\\devices\\00000856R\\privkey.key",
+      "CfgFile": "uniflash\\devices\\00000856R\\adi_sms.cfg",
+      "MCUImage": "C:\\Users\\pnoonan\\OneDrive - Analog Devices, Inc\\git\\sms\\aws_freertos_mqtt\\projects\\ti\\cc3220_launchpad\\iar\\aws_demos\\SMS_1_0\\Exe\\aws_demos.bin"
+    },
+    "00000478R": {
+      "Configuration": "ProductionDigiCert",
+      "ClientCertificate": "uniflash\\devices\\00000478R\\clientcert.crt",
+      "PrivateKey": "uniflash\\devices\\00000478R\\privatekey.key",
+      "CfgFile": "uniflash\\devices\\00000478R\\adi_sms.cfg"
+    },
+	"00000902J": {
+      "Configuration": "Development",
+      "ClientCertificate": "uniflash\\devices\\00000902J\\cert.crt",
+      "PrivateKey": "uniflash\\devices\\00000902J\\privkey.key",
+      "CfgFile": "uniflash\\devices\\00000902J\\adi_sms.cfg",
+      "MCUImage": "C:\\Users\\pnoonan\\OneDrive - Analog Devices, Inc\\git\\sms\\aws_freertos_mqtt\\projects\\ti\\cc3220_launchpad\\iar\\aws_demos\\SMS_1_0\\Exe\\aws_demos.bin"
+    },
+  }
+}
+
+
